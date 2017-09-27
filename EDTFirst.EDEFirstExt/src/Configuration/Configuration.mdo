@@ -49,4 +49,5 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.СправочникОЧемТо</catalogs>
 </mdclass:Configuration>

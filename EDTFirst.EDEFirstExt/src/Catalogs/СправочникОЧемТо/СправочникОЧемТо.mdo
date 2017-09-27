@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="31457359-fffb-4358-9d0e-30805318f3fe">
+  <producedTypes>
+    <objectType typeId="79f9b331-9d6d-40a5-8234-ce221361632c" valueTypeId="38c90bec-604b-4fc2-ae7b-ecf217602386">
+    </objectType>
+    <refType typeId="2f3af216-1d27-4119-ac57-071a484e5c6f" valueTypeId="e535b8cb-d623-451b-a184-168add2eea2c">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="c045472f-ab72-42b1-afb8-4c1e745c5862" valueTypeId="c762583d-52ee-442d-91e9-97337f0015c9">
+    </selectionType>
+    <listType typeId="8adba5f7-3b22-4880-95c6-76fd7d9d753d" valueTypeId="aba03fc5-ba57-4f96-b5b9-04ce45cff1a7">
+    </listType>
+    <managerType typeId="a3a1af09-c523-4a93-8032-a48e940f92d3" valueTypeId="df547577-59f4-496f-ae4d-d7bd6f74e212">
+    </managerType>
+  </producedTypes>
+  <name>СправочникОЧемТо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <forms uuid="64068ade-ac53-4a2c-8666-dff08b17b9ed">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
